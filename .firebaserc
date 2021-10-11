@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "cmack-project"
+  },
+  "targets": {
+    "cmack-project": {
+      "hosting": {
+        "tabata-planner": [
+          "tabata-planner"
+        ]
+      }
+    }
+  }
+}

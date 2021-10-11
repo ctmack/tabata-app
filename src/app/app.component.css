@@ -1,0 +1,433 @@
+.headline {
+	font-size: 20px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color:white;
+	background-color: black;
+	margin-bottom: 20px;
+	display: inline-flex;
+	width: 100%;
+	text-align: left;
+}
+
+.headline a {
+	color: white;
+	text-decoration: none;
+}
+
+#home-button{
+	margin-right: 20px;
+	margin-left: 20px;
+	font-size: 27px;
+	line-height: 20px;
+	cursor: pointer;
+}
+
+#headline-title{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.controller{
+	margin-left: 15px;
+	color: rgb(180,180,180);
+}
+
+.controller a{
+	cursor: pointer;
+	margin-left: 15px;
+	margin-right: 15px;
+	text-decoration: none;
+	color: rgb(180,180,180);
+}
+
+.controller a .selected{
+	cursor: pointer;
+	text-decoration: none;
+	color: rgb(20,20,20);
+}
+
+#content {
+	display: inline-flex;
+	max-width: 1200px;
+}
+
+#exercise-content {
+	margin-top: 30px;
+	margin-right: 20px;
+	width: 730px;
+	margin-bottom: 50px;
+}
+
+#timer-content {
+	max-width: 300px;
+	margin-left: 20px;
+	margin-bottom: 50px;
+}
+
+.exercise-control-title{
+	padding-top: 16px;
+	font-size: 14px;
+}
+
+.upper {
+	background-color: rgb(205,113,97);
+}
+.lower {
+	background-color: rgb(114,148,130);
+}
+.core {
+	background-color: rgb(137,157,210);
+}
+.cardio {
+	background-color: rgb(221,204,123);
+}
+
+#segments {
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: 154px 154px 154px 154px;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+}
+
+.segment{
+	height: 60px;
+	background-color: rgb(240,240,240);
+	padding-top: 30px;
+	padding-left: 5px;
+	pading-right: 5px;
+	padding-bottom: 30px;
+	font-size: 15px;
+}
+
+.rest-segment{
+	height: 60px;
+	/*background-color: rgb(224,242,256);*/
+	background-color: rgb(230,230,230);
+	font-size: 15px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.segment-time{
+	padding-top: 10px;
+	font-size: 14px;
+	color: rgb(70,70,70);
+}
+
+#set-display {
+	display: grid;
+	grid-gap: 2px;
+	grid-template-columns: 100px 630px;
+}
+
+#sets-column {
+	color: rgb(255,255,255);
+	background-color: rgb(0,0,0);
+	height: 100%;
+	width: 99px;
+ 	font-size: 20px;
+}
+
+#sets-text {
+	margin-top:30px;
+}
+
+#status{
+	width: 100%;
+}
+
+#time-start-pause {
+	display: inline-flex;
+	width: 100%;
+}
+
+#current-status{
+	text-align: left;
+	width: 100%;
+	font-size: 25px;
+	display: inline-flex;
+	height: 150px;
+	margin-bottom: 10px;
+}
+
+#tabata-name {
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+
+#current-move-section {
+	background-color: rgb(221,204,123);
+	width: 550px;
+	height: 110px;
+	margin-right: 2px;
+	padding: 15px;
+}
+#next-move-section {
+	background-color: rgb(240,240,240);
+	width: 240px;
+	height: 110px;
+	margin-left: 3px;
+	font-size: 15px;
+	padding: 15px;
+}
+
+.move-title {
+	font-size:15px;
+	margin-bottom: 10px;
+}
+.move {
+	font-size:20px;
+}
+
+#timer {
+	width: 300px;
+	text-align: center;
+	font-size: 120px;
+}
+#exercise-controls {
+	width: 100%;
+	text-align: center;
+	display: inline-flex;
+	background-color:black;
+	color:white;
+	line-height: 20px;
+}
+
+#exercise-controls-time{
+	width: 50%;
+}
+
+#exercise-controls-counts{
+	width: 50%;
+}
+
+#exercise-controls-counts input{
+	background-color:black;
+	color: white;
+	
+}
+
+#exercise-controls-time input{
+	background-color:black;
+	color: white;
+	
+}
+
+#time-controls {
+	width: 100%;
+	text-align: center;
+	display: inline-flex;
+}
+#start-pause {
+	height: 50px;
+	margin-bottom: 5px;
+	width: 147px;
+	margin-right: 5px;
+	cursor: pointer;
+	line-height: 50px;
+	text-align: center;
+}
+
+#simple-start-pause {
+	height: 50px;
+	margin-bottom: 5px;
+	width: 100%;
+	margin-right: 5px;
+	cursor: pointer;
+	line-height: 50px;
+	text-align: center;
+}
+
+.start-pause-inactive {
+	background-color: rgb(114,148,130);
+}
+
+.start-pause-inactive:hover {
+	background-color: rgb(114,160,130);
+}
+
+.start-pause-active {
+	background-color: rgb(205, 113, 97);
+}
+
+.start-pause-active:hover {
+	background-color: rgb(225, 113, 97);
+}
+
+#reset {
+	height: 50px;
+	width: 148px;
+	margin-bottom: 5px;
+	cursor: pointer;
+	line-height: 50px;
+	text-align: center;
+	background-color: rgb(137,157,210);
+	color:black;
+}
+
+#reset:hover{
+	background-color: rgb(157,157,230);
+}
+
+#simple-reset {
+	height: 40px;
+	width: 80%;
+	font-size: 14px;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	cursor: pointer;
+	line-height: 40px;
+	text-align: center;
+	background-color: rgb(137,157,210);
+	color:black;
+}
+
+#simple-reset:hover{
+	background-color: rgb(157,157,230);
+}
+
+#show-rests-button {
+	height: 40px;
+	width: 80%;
+	font-size: 14px;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	cursor: pointer;
+	line-height: 40px;
+	text-align: center;
+	background-color: rgb(230,230,230);
+	color:black;
+}
+
+input {
+	border: none;
+	font-family: Montesarrat;
+	font-size: 20px;
+	width: 35px;
+	text-align: center;
+}
+
+input:focus {
+	outline-width: 0;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+#presets{
+	margin-top: 10px;
+	/*display: grid;*/
+	text-align: center;
+	grid-gap: 3px;
+	grid-template-columns: 98px 98px 98px;
+	width: 100%;
+	text-align: center;
+	justify-content: center;
+	align-content: center;
+
+}
+
+.preset {
+	height: 50px;
+	background-color: rgb(240,240,240);
+	color: black;
+	padding: 10px;
+	cursor: pointer;
+}
+
+
+.toggle {
+	height: 30px;
+	width: 15px;
+	text-align: center;
+	cursor: pointer;
+	line-height: 30px;
+	/* select-prevention css */
+	-webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+
+#custom-file-upload {
+	display: block;
+	text-align: center;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  margin: auto;
+  margin-top: 3px;
+	font-size: 15px;
+	background-color: rgb(221,204,123);
+	cursor: pointer;
+}
+
+.workout-preset {
+	display: block;
+	height: 50px;
+	width: 100%;
+}
+
+#simple-move-blocks{
+	text-align: left;
+	width: 100%;
+	font-size: 15px;
+	display: inline-flex;
+	height: 100%;
+	margin-bottom: 5px;
+}
+
+#simple-timer-current-move-section {
+	background-color: rgb(221,204,123);
+	padding: 5px;
+	width: 50%;
+	margin-right: 2px;
+	height: 100px;
+}
+#simple-timer-next-move-section {
+	background-color: rgb(230,230,230);
+	padding: 5px;
+	width: 50%;
+	margin-left: 3px;
+	height: 100px;
+}
+
+.simple-move-title {
+	font-size:12px;
+}
+.simple-move {
+	font-size:20px;
+}
+
+.plan-block {
+	cursor: pointer;
+	width: 100%;
+	height: 30px;
+	background-color: rgb(240,240,240);
+	line-height: 30px;
+	margin-bottom: 5px;
+	font-size: 14px;
+}
